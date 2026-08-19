@@ -84,7 +84,7 @@
                                  &kp LGUI     &kp SPACE    &lq SYM BSPC    &sk LEFT_ALT                 &sk RIGHT_ALT   &lq NUM DEL  &kp RET      &kp RGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp  PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_msc SCRL_UP SCRL_DOWN &inc_dec_kp LEFT RIGHT>;
         };
 
         sym_layer {
